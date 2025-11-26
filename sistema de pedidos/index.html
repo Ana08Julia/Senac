@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte sua Refeição</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Monte sua Refeição</h1>
+</header>
+
+<main>
+    <section>
+        <form id="form">
+
+            <label for="prato">Escolha o Prato:</label>
+            <select id="prato">
+                <option value="">Selecione</option>
+                <option value="25">Lasanha  R$25</option>
+                <option value="18">Hambúrguer  R$18</option>
+                <option value="22">Frango Grelhado  R$22</option>
+            </select>
+
+            <label for="bebida">Escolha a Bebida:</label>
+            <select id="bebida">
+                <option value="">Selecione</option>
+                <option value="6">Refrigerante  R$6</option>
+                <option value="4">Suco  R$4</option>
+                <option value="3">Água  R$3</option>
+            </select>
+
+            <p>Adicionais:</p>
+            <label><input type="checkbox" class="adicional" value="7"> Sobremesa  R$7</label>
+            <label><input type="checkbox" class="adicional" value="3"> Molho Extra  R$3</label>
+            <label><input type="checkbox" class="adicional" value="5"> Embalagem Premium  R$5</label>
+
+            <button type="button" id="btnCalcular">Calcular Total</button>
+        </form>
+
+        <div id="erro" class="erro esconder"></div>
+    </section>
+
+    <section id="resultado" class="esconder">
+        <h2>Resumo do Pedido</h2>
+
+        <p><strong>Prato:</strong> <span id="rPrato"></span></p>
+        <p><strong>Bebida:</strong> <span id="rBebida"></span></p>
+        <p><strong>Adicionais:</strong></p>
+        <ul id="rAdicionais"></ul>
+
+        <h3>Total: R$ <span id="rTotal"></span></h3>
+
+        <button id="novoPedido">Novo Pedido</button>
+    </section>
+</main>
+
+<footer>
+    <p>Ana Júlia Alves Pereira 26.11.2025</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
