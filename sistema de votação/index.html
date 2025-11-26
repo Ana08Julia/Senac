@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sistema de Votação de Personagens</title>
+<body>
+    <header>
+        <h1><u>Sistema de Votação de Personagens</u></h1>
+    </header><main>
+    <section class="formulario">
+        <form action="" id="formulario">
+        <label for="personagens">Escolha um personagem:</label><br><br>
+        <select id="personagens">
+            <option value=""> Selecione </option>
+            <option value="Naruto">Naruto</option>
+            <option value="Goku">Goku</option>
+            <option value="Luffy">Luffy</option>
+            <option value="Sakura">Sakura</option>
+        </select>
+        <br><br>
+        <button id="btnVotar">Votar</button>
+    </form>
+        <div id="erro"></div>
+    </section>
+
+    <section id="ranking">
+        <h2>Ranking de Votos</h2>
+        <ul id="lista-ranking"></ul>
+    </section>
+</main>
+
+<footer>
+    <p>Ana Julia Alves Pereira 24.11.2025</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
