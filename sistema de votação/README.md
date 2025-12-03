@@ -1,5 +1,6 @@
 # Sistema De Votação 📈
 Criei o site de sistema de votação para oferecer uma forma divertida e interativa de os fãs escolherem seus personagens favoritos. Goku, Naruto, Luffy e Sakura foram selecionados por serem figuras marcantes dos animes mais populares. A ideia surgiu da vontade de reunir opiniões e ver quem realmente conquista mais votos do público. Além disso, o site permite comparar preferências por meio de um ranking atualizado. Quero proporcionar uma experiência simples e envolvente para quem gosta desse universo. Assim, todos podem participar e acompanhar o resultado em tempo real.
+<img width="1210" height="941" alt="votacao" src="https://github.com/user-attachments/assets/336babc3-cf62-4b87-bcff-3c10bb086c30" />
 
  ## Funcionalidades⚙️
 A principal funcionalidade do site é permitir que os usuários votem em seu personagem favorito entre Goku, Naruto, Luffy e Sakura. O sistema registra cada voto e atualiza automaticamente o ranking de popularidade. Além disso, o site exibe os resultados em tempo real, tornando uma melhor experiência.
