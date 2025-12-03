@@ -5,14 +5,14 @@ Criei o site de sistema de votação para oferecer uma forma divertida e interat
 A principal funcionalidade do site é permitir que os usuários votem em seu personagem favorito entre Goku, Naruto, Luffy e Sakura. O sistema registra cada voto e atualiza automaticamente o ranking de popularidade. Além disso, o site exibe os resultados em tempo real, tornando uma melhor experiência.
 
 ## Tecnologias utilizadas 🤖
-<div aling="center">
-<img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000">
-<img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000">
-<img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000">
-<img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=000000">
-<img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=630DA4">
-<img src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000">
- <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000">
+<div align="center">
+<img src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000" height="60">
+<img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"height="60">
+<img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"height="60">
+<img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=000000"height="60">
+<img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=630DA4"height="60">
+<img src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000"height="60">
+ <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000"height="60">
 </div>
  
 ## Como Rodar
