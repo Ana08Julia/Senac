@@ -12,6 +12,7 @@ A principal funcionalidade do site é permitir que os usuários votem em seu per
 <img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=000000">
 <img src="https://img.icons8.com/?size=100&id=fmFqQmR0UdsR&format=png&color=630DA4">
 <img src="https://img.icons8.com/?size=100&id=V5cGWnc9R4xj&format=png&color=000000">
+ <img src="https://img.icons8.com/?size=100&id=9OGIyU8hrxW5&format=png&color=000000">
 </div>
  
 ## Como Rodar
@@ -20,7 +21,7 @@ A principal funcionalidade do site é permitir que os usuários votem em seu per
  3. Abra o arquivo index.html no navegador
 
 ## Como Clonar
-Git Clone 
+Git Clone https://github.com/Ana08Julia/Senac.git 
 
 ## Melhorias Futuras
 Eu faria melhor algumas coisas como no javaScript pois nele foi oq eu senit mais falta de algo a mais
