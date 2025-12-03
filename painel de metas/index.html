@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header >
+        <u><h1>Painel de Metas Diárias</h1></u>
+    </header>
+    <main>
+        <section id="form-section">
+            <form id="form-metas">
+                <label for="nome">Nome da Meta:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite o nome da meta">
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" placeholder="Digite a descrição"></textarea>
+
+                <label for="prioridade">Prioridade:</label>
+                <select id="prioridade" name="prioridade" required>
+                    <option value="Baixa">Baixa</option>
+                    <option value="Média">Média</option>
+                    <option value="Alta">Alta</option>
+                </select>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data" required>
+
+                <button type="submit">Adicionar Meta</button>
+
+                <div class="erro"></div>
+            </form>
+        </section>
+
+        <section id="lista">
+            <ul id="lista-metas"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Ana Júlia Alves Pereira | 17.11.2025</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

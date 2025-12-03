@@ -1,0 +1,23 @@
+body{
+    background-color: #E6E6FA;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color:#F5FFFA ;
+    padding: 20px;
+}
+main{
+   text-align: center;
+}
+.container{
+    background-color: #F5FFFA;
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 45px auto;
+    padding: 30px;
+    border-radius: 50px;
+    
+}

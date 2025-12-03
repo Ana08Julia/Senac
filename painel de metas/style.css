@@ -1,0 +1,131 @@
+body{
+    
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+}
+nav{
+    background-color:#F5FFFA ;
+    padding: 20px;
+}
+main{
+   text-align: center;
+   margin: auto;
+   width: 90%;
+   max-width: 550px;
+}
+footer{
+    position: fixed;
+    bottom: 0 ;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    display: inline;
+}
+/* Formulário */
+#form-section {
+    background: #EEAECA;
+background: radial-gradient(circle,rgba(238, 174, 202, 0) 100%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    
+}
+
+
+#form-metas label {
+    display: block;
+    margin-top: 10px;
+}
+
+#form-metas input,
+#form-metas textarea,
+#form-metas select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#form-metas button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #94BBE9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#form-metas button:hover {
+    background: #3576c4;
+}
+
+/* Lista de metas */
+#lista-metas {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-metas li {
+    background: radial-gradient(circle,rgba(238, 174, 202, 0) 100%, rgba(148, 187, 233, 1) 100%);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cores por prioridade */
+.baixa {
+    border-left: 6px solid #4caf50;
+}
+
+
+.média {
+     border-left: 6px solid #ff9800 ;
+}
+       
+.alta {
+    border-left: 6px solid #f44336;
+}
+
+/* Aparência quando concluída */
+.concluida {
+    opacity: 0.6;
+    text-decoration: line-through;
+}
+
+/* Botões dentro das metas */
+.meta-btn {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-concluir {
+    background: #a7c957;
+    color: white;
+}
+
+.btn-concluir:hover {
+    background:#a7c957;
+}
+
+.btn-remover {
+    background: #c1121f;
+    color: white;
+}
+
+.btn-remover:hover {
+    background:  #c1121f;
+}
