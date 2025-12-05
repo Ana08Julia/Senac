@@ -1,0 +1,14 @@
+body{
+    background: hsla(229, 46%, 72%, 1);
+
+background: radial-gradient(circle, hsla(229, 46%, 72%, 1) 0%, hsla(231, 51%, 46%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(229, 46%, 72%, 1) 0%, hsla(231, 51%, 46%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(229, 46%, 72%, 1) 0%, hsla(231, 51%, 46%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#95A1D8", endColorstr="#394BB2", GradientType=1 );
+}
+.msg{
+    text-align: center;
+}

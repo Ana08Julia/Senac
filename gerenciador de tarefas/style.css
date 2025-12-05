@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+}
+h1{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+.container{
+    display: flex;
+}
+.container hr{
+    margin: 20px 0;
+}
+.container .lateral{
+    width: 30%;
+    padding:20px;
+    border-right: 1px solid #c1c1c1;
+    margin: 10px 0;
+}
+.container #lista{
+    width: 70%;
+    padding:20px;
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.container .lateral #form-tarefa{
+    display: flex;
+    flex-direction: column;
+    color: #f3f3f3;
+}
+.container .lateral #form-tarefa label{
+    margin-bottom: 5px;
+}
+.container .lateral #form-tarefa input, .container .lateral #form-tarefa select, .container .lateral #form-tarefa button{
+    margin-bottom: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    color: #333;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container .lateral #form-tarefa button{
+    cursor: pointer;
+    background-color: #006800;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 10px;
+}
+.container .lateral #form-tarefa button:hover{
+    background-color: #004100;
+}
+.container #lista .card{
+    width: 30%;
+    height: auto;
+    padding: 5px 10px;
+    border-left: 5px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333;
+    background-color: #f3f3f3;
+    word-break: break-all;
+}
+.container #lista .card hr{
+    margin: 5px 0;
+}
+.container #lista .card.alta{
+    border-color: #8d0c0c;
+}
+.container #lista .card.alta span{
+    color: #8d0c0c;
+}
+.container #lista .card.media{
+    border-color: #8d5c0c;
+}
+.container #lista .card.media span{
+    color: #8d5c0c;
+}
+.container #lista .card.baixa{
+    border-color: #0c8d12;
+}
+.container #lista .card.baixa span{
+    color: #0c8d12;
+}
+@media screen and (max-width: 678px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .lateral{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #f3f3f3;
+    }
+    .container #lista {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .container #lista .card {
+        width: 100%;
+    }
+}

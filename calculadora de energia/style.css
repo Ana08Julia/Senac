@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 28px;
+}
+h1.danger {
+    width: 300px;
+    background-color: #ff9a9a;
+    color: #824646;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.card{
+    width: 200px;
+    text-align: center;
+    background-color: #cbcbcb;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 50px auto;
+}
+.card h2{
+    font-size: 20px;
+}
+.card p{
+    text-align: start;
+    padding: 0 15px;
+}

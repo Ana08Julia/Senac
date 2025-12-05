@@ -1,0 +1,27 @@
+form#form-reserva {
+    HEIGHT: 40PX;
+    display: flex;
+    BORDER-RADIUS: 50PX;
+    BORDER: none;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+    box-shadow: 2px 2px 5px 0px #c1c1c1;
+    position: relative;
+}
+
+form#form-reserva INPUT, form#form-reserva SELECT, form#form-reserva BUTTON {
+    BORDER: NONE;
+    background: transparent;
+    cursor: pointer;
+    padding: 0 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: flex-start;
+}
+
+form#form-reserva INPUT:hover, form#form-reserva SELECT:hover, form#form-reserva BUTTON:hover {
+    background-color: #d9d9d9;
+}
