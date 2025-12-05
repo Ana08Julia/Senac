@@ -24,7 +24,7 @@ As atividades têm a funcionalidade de ensinar JavaScript de forma prática, apl
  3. Abra o arquivo index.html no navegador
 
 ## Como Clonar
-Git Clone https://github.com/Ana08Julia/Senac.git 
+Git Clone https://github.com/Ana08Julia/Senac.git
 
 ## Melhorias Futuras
 Eu tenho muito oq aprender ainda no JavaScript , entt entraria mais a fundo pra melhorar essa questão
